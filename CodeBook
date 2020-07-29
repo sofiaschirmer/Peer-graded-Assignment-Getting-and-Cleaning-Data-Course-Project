@@ -1,0 +1,37 @@
+# Code Book
+
+This is the code book for tidy data set
+
+
+# Variables Description
+
+Data read from project data files with the description of each data files
+
+feature_list - features.txt file 
+
+activity - activity_labels.txt file 
+
+subject_test - subject_test.txt file 
+
+x_test - X_test.txt
+
+y_test - Y_test.txt
+
+subject_train - subject_train.txt
+
+x_train - train/X_train.txt
+
+y_train -train/Y_train.txt
+
+
+# Variables visualization
+
+Varible 'Activity' = consist of data from “Y_train.txt” and “Y_test.txt”
+
+Varible 'Subject' = consist of data from “subject_train.txt” and subject_test.txt"
+
+Varibles 'Features' = consist of data from “X_train.txt” and “X_test.txt”
+
+Varibles 'Features'=  “features.txt”
+
+Different levels of Varible 'Activity' =  “activity_labels.txt”
