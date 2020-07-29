@@ -1,7 +1,7 @@
 # Peer Graded Assignment: Getting and Cleaning Data Course Project
 # Getting and Cleaning Data Course Project
 
-#Firt you have to unzip or pass this download into your repository
+#First you have to unzip or pass this download into your repository
 
 #Read the Activity files
 
