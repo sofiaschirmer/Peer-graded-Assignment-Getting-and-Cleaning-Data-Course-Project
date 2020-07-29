@@ -2,8 +2,8 @@
 # Getting and Cleaning Data Course Project
 
 #First you have to unzip or pass this download into your repository
-
-#Read the Activity files
+#Read all the files using the read.table() function
+#So, read the Activity files 
 
 dataActivityTest  <- read.table(file.path(path_rf, "test" , "Y_test.txt" ),header = FALSE)
 dataActivityTrain <- read.table(file.path(path_rf, "train", "Y_train.txt"),header = FALSE)
@@ -33,7 +33,7 @@ dataSubject <- rbind(dataSubjectTrain, dataSubjectTest)
 dataActivity<- rbind(dataActivityTrain, dataActivityTest)
 dataFeatures<- rbind(dataFeaturesTrain, dataFeaturesTest)
 
-###now you have three datasets
+###now you have three datasets "dataSubject", "dataActivity", "dataFeatures"
 
 #you can change the set names to variables
 names(dataSubject)<-c("subject")
@@ -53,3 +53,4 @@ str(Data)
 
 
 ###end
+##for create a tinydata you can use the plyr() function with write.table()
